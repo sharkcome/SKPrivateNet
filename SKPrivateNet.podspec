@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.author             = { "sharkcome" => "email@address.com" }
     s.platform     = :ios,"8.0"
     s.ios.deployment_target = "8.0"
-  s.source       = { :git => "https://github.com/sharkcome/SKPrivateNet.git", :commit => "2655434bb865e874377b594a67489659504b4550" }
+  s.source       = { :git => "https://github.com/sharkcome/SKPrivateNet.git", :tag => "#{s.version}" }
   s.source_files  = "SKNetCommonTool.h"
   s.requires_arc = true
 
